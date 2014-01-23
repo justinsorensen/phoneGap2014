@@ -1,0 +1,95 @@
+/*	colors
+	#0C141F Basestar
+	#6FC3DF Cyan tron
+	#E6FFFF Pane (baby blue)
+	#FFE64D Sweet Yellow
+	#DF740C Orange tron
+*/
+
+/* TRON FONT */
+@font-face{
+	font-family: TronFont;
+	src: url('fonts/Tr2n.ttf');
+}
+
+body{
+	background-image:url('../img/troncity.jpg');
+	background-attachment: fixed;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	/*background-color: #cccccc;*/
+}
+
+header {
+	font-family: TronFont;
+	position: relative;
+	/*background-color: #6FC3DF;*/
+	background: linear-gradient(to right, #FFFFFF, #6FC3DF);
+	height: 50px;
+	margin-top: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 5px outset;
+}
+
+h1 {
+	margin: 0;
+	line-height: 50px;
+	color: #FFFFFF;
+	text-align: center;
+	text-shadow: 5px 5px 5px #0C141F;
+}
+
+p {
+	color: #FFFFFF;
+}
+
+nav {
+	margin-top: 10px;
+	height: 20px;
+	text-align: center;
+	position: relative;
+	padding-left: 10px;
+	background-color: #E6FFFF;
+}
+
+nav > a {
+	text-decoration: none;
+}
+
+nav > a:hover{
+	background-color: #FFE64D;
+}
+
+#girlwithglasses {
+	height: 200px;
+}
+
+figcaption {
+	color: #FFFFFF;
+}
+
+#list {
+	color:white;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+	position: relative;
+	height: 50px;
+	/*background-color: #6FC3DF;*/
+	background: linear-gradient(to right, #FFFFFF, #6FC3DF);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: 5px outset;
+}
+
+footer > p {		/* center text vertically */
+	margin: 0;
+	line-height: 50px;
+	color: #FFFFFF;
+	text-shadow: 5px 5px 5px #0C141F;
+}

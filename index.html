@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/test.css" />
+
+	<script type="text/javascript">
+	//JS written into the document
+		function  makeNav(){
+			for(i=0; i < 10; i++) {
+				document.getElementById("navBar").innerHTML += "<a> button " + i + "</a>";
+			}
+		}
+	</script>
+
+	<script src="js/list.js">
+		//Call to external JS
+	</script>
+
+	<script>
+		//Start funtion to execute all of the page's "onload" funtions
+	 	function start() {
+	 		makeNav();
+	 		makeList();
+	 	}
+		window.onload = start; 
+	</script>
+
+</head>
+
+<body>
+	<header>
+		<h1>Welcome to my testing page!</h1>
+	</header>
+	<nav id="navBar">
+	</nav>
+
+	<section>
+		<p>Here is some text yo!</p>
+
+		<figure>
+			<img id="girlwithglasses" src="./img/glasseschick.jpg" />
+			<figcaption>Here is a figure caption!</figcaption>
+		</figure>
+
+	</section>
+	<section>
+		<ol id="list">
+		</ol>
+	</section>
+
+	<footer>
+		<p>Justin Sorensen 2013</p>
+	</footer>
+</body>
+
+</html>
